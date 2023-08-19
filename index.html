@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game Bro Code</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="gameContainer">
+        <!--The reason to assign these width and height atirbute inline
+        inside the canvas tag is because if we declare them inside our CSS
+    file then these values would not be available to us straightaway.-->
+        <canvas id="gameBoard" width="500" height="500"></canvas>
+        <div id="scoreText">Your Score: 0</div>
+        <button id="resetBtn">Restart Game</button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

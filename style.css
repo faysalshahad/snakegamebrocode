@@ -1,0 +1,35 @@
+
+body{
+    background-color: bisque;
+    
+}
+
+#gameContainer{
+    text-align: center;
+    
+
+}
+
+#gameBoard{
+    border: 3px solid;
+    /* background-color: #FFF9C9; */
+
+}
+
+#scoreText{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    color: darkred;
+}
+
+#resetBtn{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2rem;
+    width: 15rem;
+    height: 3rem;
+    border: 4px solid;
+    border-radius: 1rem;
+    cursor: pointer;
+    background-color: chocolate;
+    font-weight: bolder;
+}
